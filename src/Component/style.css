@@ -115,22 +115,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 60vh;
     max-width: 100%;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #d8defa, #eddbff);
     /* background-image: url(D:\Portfolio\portfolio\src\Assets\sof.GIF
     ); */
     /* background-size: cover;  */
     /* background-position: center; */
      /* Centers the image */
     background-repeat: no-repeat;
-    color: rgba(255, 252, 96, 0.823);
+    color: rgba(0, 0, 0, 0.823);
     font-family: 'Roboto', sans-serif;
     text-align: center;
 
   }
   .role{
-    color: #007bff;
+    color: #000000;
   }
   .greeting {
     font-size: 1.8rem;
@@ -148,7 +148,7 @@
   }
   
   .highlight {
-    color: #f06e32;
+    color:#1e0c5e;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   }
   
@@ -244,7 +244,7 @@
     animation: fadeIn 2s ease-in-out;
   }
   .about-me {
-    background-color: #e89016; 
+    background-color: #1e0c5e; 
     /* Soft background color */
     padding: 20px;
     border-radius: 10px;
@@ -258,7 +258,7 @@
   
   .about-me h3 {
     font-size: 2rem;
-    color: #333;
+    color: #ecf00c;
     margin-bottom: 10px;
     font-weight: 600;
     animation: slideIn 1s ease-in-out; /* Title slide-in animation */
@@ -266,7 +266,7 @@
   
   .about-me p {
     font-size: 1.1rem;
-    color: #555;
+    color: #ffffff;
     line-height: 1.6;
     margin-bottom: 0;
   }
@@ -283,7 +283,7 @@
     position: relative;
   }
 a.resume-but{
-color: #ddd;
+color: #ffffff;
 text-decoration: none;
 }
   @keyframes fadeIn {
@@ -363,7 +363,7 @@ text-decoration: none;
   .footer {
     text-align: center;
     padding: 20px;
-    background-color: #000000;
+    background-color:#1e0c5e;
     border-top: 1px solid #ddd;
     color: white;
   }
@@ -422,7 +422,7 @@ text-decoration: none;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #e89016;
+    background-color:#1e0c5e;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -431,14 +431,14 @@ text-decoration: none;
   
   .education-box h1 {
     font-size: 2rem;
-    color: #333;
+    color: #000000;
     margin-bottom: 20px;
     animation: fadeIn 1s ease-in-out;
   }
   
   .education-box .quotes {
     font-style: italic;
-    color: #666;
+    color: #ffffff;
     margin-bottom: 30px;
     animation: fadeIn 1.5s ease-in-out;
   }
@@ -463,12 +463,12 @@ text-decoration: none;
   
   .education-box h2 {
     font-size: 1.5rem;
-    color: #444;
+    color: #ffffff;
     margin-bottom: 10px;
   }
   
   .education-box p {
-    color: #555;
+    color: #ffffff;
     margin-bottom: 5px;
   }
   
@@ -558,7 +558,7 @@ text-decoration: none;
     max-width: 800px;
     margin: 50px auto;
     padding: 20px 30px;
-    background: #e89016;
+    background:#1e0c5e;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border: 1px solid #eaeaea;
@@ -568,7 +568,7 @@ text-decoration: none;
   
   .project-box h1 {
     font-size: 2.5rem;
-    color: #333;
+    color: #000000;
     margin-bottom: 15px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -577,7 +577,7 @@ text-decoration: none;
   
   .project-box p {
     font-size: 1.1rem;
-    color: #555;
+    color: #ffffff;
     line-height: 1.6;
     margin: 20px 0;
     text-align: justify;
@@ -651,7 +651,7 @@ text-decoration: none;
     max-width: 900px;
     margin: 50px auto;
     padding: 20px 30px;
-    background-color: #e89016;
+    background-color:#1e0c5e;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     animation: fadeIn 1s ease-in-out;
@@ -660,7 +660,7 @@ text-decoration: none;
   .experience h1 {
     text-align: center;
     font-size: 2.5rem;
-    color: #333;
+    color: #000000;
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -669,7 +669,7 @@ text-decoration: none;
   
   .experience div {
     margin-bottom: 30px;
-    background-color: #fff382;
+    background-color:#9eb5cf;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
@@ -683,7 +683,7 @@ text-decoration: none;
   
   .experience p {
     font-size: 1.1rem;
-    color: #555;
+    color: #ffffff;
     line-height: 1.6;
     margin-bottom: 10px;
   }
